@@ -1,4 +1,5 @@
 import Link from "next/link";
+import About from "./About";
 function Header() {
   return (
     <>
@@ -18,7 +19,7 @@ function Header() {
           </Link>
         </ul>
       </nav>
-      
+      <About/>
     </>
   );
 }
